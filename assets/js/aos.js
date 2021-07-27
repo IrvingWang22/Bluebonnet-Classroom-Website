@@ -1,4 +1,4 @@
 AOS.init({
-    offset: 350,
-    duration: 1000
+    offset: 300,
+    duration: 800
 });
