@@ -1,0 +1,14 @@
+main {
+    min-height: 100vh;
+}
+
+.footer {
+    position: fixed; 
+    bottom:0%;
+    width:100%; 
+}
+
+.hero {
+    animation: fadeInUp;
+    animation-duration: 1.5s;
+}

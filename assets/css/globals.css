@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 6000px;
+}
+
+/* TEXT */
+h1 {
+    font-family: 'plus_jakarta_sansbold';
+    font-size: 36px;
+}
+
+input,
+p {
+    font-family: 'plus_jakarta_sansregular';
+    font-size: 18px;
+}
+
+a {
+    font-family: 'plus_jakarta_sansmedium';
+    font-size: 18px;
+    color: #777777;
+    transition: opacity 0.5s;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #777777;
+    opacity: 0.7;
+}
+
+a.black-text {
+    transition: opacity 0.5s;
+}
+
+.inter {
+    font-family: 'Inter', sans-serif;
+}
+
+/* a:hover .inter::before {
+    content: "-";
+} */
+
+.black-text {
+    color: #000000;
+}
+
+.blue-text {
+    color: #000000;
+    text-decoration: underline;
+    -webkit-text-decoration-color: #88BBFF; 
+    text-decoration-color: #88BBFF;
+    -webkit-text-decoration-thickness: 5px;
+    filter: drop-shadow(0px 10px 40px rgba(136, 187, 255, 0.25));
+}
+
+/* SPACING */
+.margin {
+    margin: 20px;
+}
+
+/* NAVBAR */
+nav {
+    background-color: #FFFFFF;
+}
+
+.logo {
+    filter: drop-shadow(0px 10px 40px rgba(136, 187, 255, 0.25));
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-links a {
+    margin-top: 35px;
+}
+
+a.nav-btn {
+    margin-top: 25px;
+    max-height: 45px;
+}
+
+/* BUTTONS */
+.bc-btn {
+    background-color: #CCE2FF;
+    color: #116DD2;
+    padding: 10px;
+    border-radius: 0;
+    width: 200px;
+    transition: opacity 0.5s;
+    font-weight: 500;
+    font-size: 18px;
+    filter: drop-shadow(0px 10px 40px rgba(204, 226, 255, 0.25));
+    /* border-radius: 9px; */
+}
+
+.bc-btn:hover {
+    color: #116DD2;
+}
+
+/* HERO */
+.hero {
+    margin-top: 200px;
+}
+
+.hero-header {
+    font-size: 72px;
+    font-family: 'plus_jakarta_sansextrabold';
+}
+
+.hero-sub {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 24px;
+}
+
+/* SECTIONS */
+.begin-content {
+    margin-top: 150px;
+}
+
+.content {
+    margin-top: 200px;
+}
+
+.cust-row {
+    display: flex;
+}
+
+.sect-sub {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    /* HERO */
+    .hero-header {
+        font-size: 60px;
+    }
+}
+
+/* FONT INIT */
+
+@font-face {
+    font-family: 'plus_jakarta_sansbold';
+    src: url('../fonts/plusjakartasans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/plusjakartasans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'plus_jakarta_sansextrabold';
+    src: url('../fonts/plusjakartasans-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/plusjakartasans-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'plus_jakarta_sansmedium';
+    src: url('../fonts/plusjakartasans-medium-webfont.woff2') format('woff2'),
+         url('../fonts/plusjakartasans-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'plus_jakarta_sansregular';
+    src: url('../fonts/plusjakartasans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/plusjakartasans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
