@@ -4,10 +4,6 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    min-height: 6000px;
-}
-
 /* TEXT */
 h1 {
     font-family: 'plus_jakarta_sansbold';
