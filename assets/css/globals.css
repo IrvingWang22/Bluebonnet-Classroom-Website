@@ -286,6 +286,10 @@ footer p {
     .hero {
         margin-top: 100px;
     }
+
+    .coming-soon {
+        margin: 20px 0 20px 0;
+    }
 }
 
 
