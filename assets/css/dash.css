@@ -26,9 +26,9 @@ main {
     opacity: 1;
 }
 
-.socials-in {
+/* .socials-in {
     margin-right: auto;
-}
+} */
 
 @media only screen and (max-width: 1100px) {
     .socials {
