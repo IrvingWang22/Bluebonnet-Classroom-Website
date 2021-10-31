@@ -37,6 +37,20 @@
     display: flex;
 }
 
+@media only screen and (max-width: 600px) {
+    .carousel-item {
+        padding: 10px;
+    }
+
+    .testim-txt {
+        padding: 10px;
+    }
+
+    .carousel-inner {
+        margin: 20px 0 20px 0;
+    }
+}
+
 /* .arr-left {
     background-image: url('../img/arrow-left.svg');
     background-repeat: no-repeat;
