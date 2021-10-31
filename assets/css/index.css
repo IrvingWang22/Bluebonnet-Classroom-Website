@@ -45,6 +45,10 @@
     .testim-txt {
         padding: 10px;
     }
+
+    .carousel-inner {
+        margin: 20px 0 20px 0;
+    }
 }
 
 /* .arr-left {
