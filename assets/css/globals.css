@@ -282,6 +282,10 @@ footer p {
     .animate-down {
         display: none;
     }
+
+    .hero {
+        margin-top: 100px;
+    }
 }
 
 
