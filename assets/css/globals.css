@@ -292,6 +292,14 @@ footer p {
     }
 }
 
+
+@media only screen and (max-width: 400px) {
+    .logo {
+        height: 25px;
+        width: 205px;
+    }
+}
+
 /* FONT INIT */
 
 @font-face {
