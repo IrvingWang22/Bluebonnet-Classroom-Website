@@ -300,6 +300,13 @@ footer p {
     }
 }
 
+@media only screen and (max-width: 375px) {
+    nav {
+        position: sticky; 
+        top: 0;
+    }
+}
+
 /* FONT INIT */
 
 @font-face {
